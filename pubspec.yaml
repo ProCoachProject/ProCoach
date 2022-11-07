@@ -1,0 +1,46 @@
+name: pro_coach
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  supabase: ^0.3.6
+  shared_preferences: ^2.0.15
+  image_picker: ^0.8.6
+  geolocator: ^9.0.2
+  curved_navigation_bar: ^1.0.3
+  font_awesome_flutter: ^10.2.1
+  url_launcher: ^6.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
